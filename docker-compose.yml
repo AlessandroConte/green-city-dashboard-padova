@@ -5,8 +5,8 @@ services:
     container_name: green_postgres
     restart: unless-stopped
     environment:
-      POSTGRES_USER: green_user
-      POSTGRES_PASSWORD: ChangeMeStrong!
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin123
       POSTGRES_DB: green_city
     volumes:
       - pgdata:/var/lib/postgresql/data
