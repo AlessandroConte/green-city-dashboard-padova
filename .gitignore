@@ -9,8 +9,8 @@ venv/
 .ipynb_checkpoints
 
 # Data
-/data/raw/
-/data/processed/
+# /data/raw/
+# /data/processed/
 
 # Power BI (sovente grandi e binari)
 *.pbix
