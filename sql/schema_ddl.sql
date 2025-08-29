@@ -10,7 +10,7 @@ CREATE TABLE IF NOT EXISTS aq.stations (
 
 CREATE TABLE IF NOT EXISTS aq.pollutants (
     pollutant_id BIGSERIAL PRIMARY KEY,  
-    code INT NOT NULL,
+    code VARCHAR(50) NOT NULL,
     name VARCHAR(255),
     unit VARCHAR(255),
     description VARCHAR(255)
