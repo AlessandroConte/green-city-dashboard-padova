@@ -1,1 +1,7 @@
-*.sql linguist-vendored=false
+# Force recognition of SQL files
+*.sql linguist-detectable=true
+*.sql linguist-language=SQL
+
+# Ensure everything inside /sql folder is counted as SQL code
+sql/* linguist-detectable=true
+sql/* linguist-language=SQL
